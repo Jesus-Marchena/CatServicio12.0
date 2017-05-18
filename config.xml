@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>Catalogo de Servicios 12.0</name>
+
+<description>
+Trabajo final Catalogo de Servicios
+</description>
+
+<author href="https://araconsultoriaysoluciones.com" email="ing.jmarchena@gmail.com">
+JESUS ERNESTO MARCHENA SANCHEZ 
+</author>
+<gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="img/icon.png" />
+<icon src="img/icon.png" />
+<preference name="stay-in-webview" value="false" />
+<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+</feature>
+</widget>
